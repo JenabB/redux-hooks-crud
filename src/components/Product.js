@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 //Redux
 import { useDispatch } from "react-redux";
-import { deleteProductAction } from "../actions/productsActions";
+import { deleteProductAction } from "../redux/actions/productsActions";
 import Swal from "sweetalert2";
 
 export default function Product({ product }) {

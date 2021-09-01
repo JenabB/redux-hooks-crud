@@ -4,8 +4,6 @@ import {
   VALIDATION_FORM_ERROR,
 } from "../types/types";
 
-// State inicial
-
 const initialState = {
   error: null,
 };

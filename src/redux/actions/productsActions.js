@@ -25,7 +25,7 @@ import {
   PRODUCT_EDITED_ERROR,
 } from "../types/types";
 
-import clientAxios from "../config/axios";
+import clientAxios from "../../config/axios";
 
 // Crear un nuevo producto - Función Principal
 

@@ -3,7 +3,7 @@ import Product from "./Product";
 
 //Redux
 import { useDispatch, useSelector } from "react-redux";
-import { getProductsAction } from "../actions/productsActions";
+import { getProductsAction } from "../redux/actions/productsActions";
 
 const Products = () => {
   //Ejecutar acción

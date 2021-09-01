@@ -6,12 +6,12 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   getProductEditAction,
   editProductAction,
-} from "../actions/productsActions";
+} from "../redux/actions/productsActions";
 import {
   validationFormAction,
   validationSuccess,
   validationError,
-} from "../actions/validationActions";
+} from "../redux/actions/validationActions";
 
 import Swal from "sweetalert2";
 

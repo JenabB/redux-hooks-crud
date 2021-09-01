@@ -19,15 +19,9 @@ function App() {
         <Header />
         <div className="container">
           <Switch>
-            <Route exact path="/">
-              <Products />
-            </Route>
-            <Route path="/products/new">
-              <NewProduct />
-            </Route>
-            <Route path="/products/edit/:id">
-              <EditProduct />
-            </Route>
+            <Route exact path="/" component={Products} />
+            <Route path="/products/new" component={NewProduct} />
+            <Route path="/products/edit/:id" component={EditProduct} />
           </Switch>
         </div>
       </Provider>

@@ -6,7 +6,7 @@ const Header = () => (
     <div className="container">
       <h1>
         <Link to="/" className="text-light ">
-          CRUD - React, Redux Hooks, REST Api y axios
+          Book Storage
         </Link>
       </h1>
 

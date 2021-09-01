@@ -4,12 +4,12 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 //Redux
-import { createNewProductAction } from "../actions/productsActions";
+import { createNewProductAction } from "../redux/actions/productsActions";
 import {
   validationFormAction,
   validationSuccess,
   validationError,
-} from "../actions/validationActions";
+} from "../redux/actions/validationActions";
 import { useDispatch, useSelector } from "react-redux";
 
 const NewProduct = () => {
